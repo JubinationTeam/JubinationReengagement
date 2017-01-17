@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+ 
+  <definition name="welcome" template="/WEB-INF/jsp/index.jsp">
+       <put-attribute name="header">
+        <definition template="/WEB-INF/layout/header.jsp">
+           <put-attribute name="current" value="welcome"/>
+        </definition>
+      </put-attribute>
+      <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+  </definition>
+  <definition name="about" template="/WEB-INF/jsp/about.jsp">
+      <put-attribute name="header">
+        <definition template="/WEB-INF/layout/header.jsp">
+           <put-attribute name="current" value="about"/>
+        </definition>
+      </put-attribute>
+      <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+  </definition>
+ <definition name="products" template="/WEB-INF/jsp/products.jsp">
+      <put-attribute name="header">
+        <definition template="/WEB-INF/layout/header.jsp">
+           <put-attribute name="current" value="products"/>
+        </definition>
+      </put-attribute>
+      <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+  </definition>
+  <definition name="contact" template="/WEB-INF/jsp/contact.jsp">
+      <put-attribute name="header">
+        <definition template="/WEB-INF/layout/header.jsp">
+           <put-attribute name="current" value="contact"/>
+        </definition>
+      </put-attribute>
+      <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+  </definition>
+<definition name="contacted" template="/WEB-INF/jsp/contacted.jsp">
+      <put-attribute name="header">
+        <definition template="/WEB-INF/layout/header.jsp">
+           <put-attribute name="current" value="contact"/>
+        </definition>
+      </put-attribute>
+      <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+  </definition> 
+  <definition name="careers" template="/WEB-INF/jsp/careers.jsp">
+      <put-attribute name="header">
+        <definition template="/WEB-INF/layout/header.jsp">
+           <put-attribute name="current" value="careers"/>
+        </definition>
+      </put-attribute>
+      <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+  </definition>
+  <definition name="admincallinterface" template="/WEB-INF/jsp/admincallinterface.jsp">
+      <put-attribute name="navigation" value="/WEB-INF/layout/adminlayout.jsp"/>
+      
+  </definition>
+  <definition name="admincallrecords" template="/WEB-INF/jsp/admincallrecords.jsp">
+      <put-attribute name="navigation" value="/WEB-INF/layout/adminlayout.jsp"/>
+      
+  </definition>
+ <definition name="adminmail" template="/WEB-INF/jsp/adminmsg.jsp">
+      <put-attribute name="navigation" value="/WEB-INF/layout/adminlayout.jsp"/>
+      
+  </definition>
+  <definition name="adminsentmail" template="/WEB-INF/jsp/adminsentmsg.jsp">
+      <put-attribute name="navigation" value="/WEB-INF/layout/adminlayout.jsp"/>
+      
+  </definition>
+  <definition name="adminhr" template="/WEB-INF/jsp/adminhumanresource.jsp">
+      <put-attribute name="navigation" value="/WEB-INF/layout/adminlayout.jsp"/>
+      
+  </definition>
+  
+  <definition name="adminlogin" template="/WEB-INF/jsp/adminlogin.jsp"/>
+  <definition name="adminsettings" template="/WEB-INF/jsp/adminsettings.jsp">
+          <put-attribute name="navigation" value="/WEB-INF/layout/adminlayout.jsp"/>     
+  </definition>
+  <definition name="adminpage" template="/WEB-INF/jsp/adminpage.jsp">
+      <put-attribute name="navigation" value="/WEB-INF/layout/adminlayout.jsp"/>
+  </definition>
+  <definition name="googlelocate" template="/WEB-INF/layout/googleapimapper.html"/> 
+ </tiles-definitions>
+ 
